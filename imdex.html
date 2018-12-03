@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Лаба 2</title>
+</head>
+
+<body>
+    <h1>Я шукаю телефон</h1>
+    <form method="POST" action="https://formspree.io/stelmakh.vitalii@ukr.net">
+        <label>
+            Фірми:
+            <select name="tema" size="1">
+	  		<option value="tema_wd">Оберіть фірму виробника</option>
+	  		</select>
+        </label>
+        <br>
+        <label>
+            Модель:
+            <select name="tema" size="1">
+	  		<option value="tema_wd">Оберіть модель телефону</option>
+	  		</select>
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="color" value="З кольоровим дисплєєм">З кольоровим дисплєєм
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="black" value="З чорно-білим дисплєєм">З чорно-білим дисплєєм
+        </label>
+        <br>
+        <label>
+            З ціною не вище за:
+            <input type="number" max="500" required>
+            <select name="tema" size="1">
+	  		<option value="tema_wd">Євро</option>
+	  		<option value="tema_wd">Злотий</option>
+	  		<option value="tema_wd">Гривня</option>
+	  		</select>
+        </label>
+        <br>
+        <p>Додаткові вимоги:
+            <p>
+                <label>
+            <input type="checkbox" name="phone" value="Вбудована камера">Вбудована камера
+        </label>
+                <br>
+                <label>
+    	    <input type="checkbox" name="phone" value="Диктофон">Диктофон
+    	</label>
+                <br>
+                <label>
+    	    <input type="checkbox" name="phone" value="Java-ігри">Java-ігри
+    	</label>
+                <br>
+                <label>
+    	    <input type="checkbox" name="phone" value="Органайзер">Органайзер
+    	</label>
+                <label>
+    	    <br>
+    	    <input type="checkbox" name="phone" value="Поліфонічні мелодії">Поліфонічні мелодії
+    	</label>
+                <br>
+                <label>
+            Моя електронна адреса::
+            <input type="email">
+        </label>
+        <br>
+        <input type="submit" value="Відправити запит">
+    </form>
+</body>
+
+</html>
